@@ -11,14 +11,25 @@ header {
     justify-content: center;    
 }
 h1{
-    color:chartreuse;
+    color:blue;
     font-size: 8rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
 }
 
 .news {
     background-color: aliceblue;
     padding: 50px 0 32px;
+}
+
+.news:nth-child(odd){
+    background-color:beige;
+    padding: 50px 0 32px;
+}
+
+.name::before{
+content: 'NEW ';
+color: red;
 }
 
 article {
